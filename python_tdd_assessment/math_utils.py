@@ -9,7 +9,7 @@ def add(a, b):
     #b = input("Enter the second number: ")
     total = int(a + b)
     
-    return (a+b)
+    return a+b
 
 
 def subtract(a, b):
@@ -18,7 +18,7 @@ def subtract(a, b):
     #b = input("Enter the second number: ")
     total = int(a - b)
     
-    return (a-b)
+    return a-b
     
 
 def multiply(a, b):
@@ -27,7 +27,7 @@ def multiply(a, b):
     #b = input("Enter the second number: ")
     total = int(a * b)
     
-    return (a*b)
+    return a*b
     
 
 def divide(a, b):
@@ -35,5 +35,7 @@ def divide(a, b):
     #a = input("Enter the first number: ")
     #b = input("Enter the second number: ")
     total = int(a / b)
-    return ValueError if b == 0 else (a/b)
+    if b == 0: 
+        return ValueError  
+    return a/b
 

@@ -1,20 +1,14 @@
 # Implement the following functions so all tests pass
 
-a = 2
-b = 3
-added= (a+b)
 def add_numbers(a, b):
 
-    added = (a , b)
-print (added)
+    return a+b
 
     
 
 def is_even(num):
-    if a % b == 0:
-        return True
-    else:
-        return False 
+    return n % 2 == 0
+
     
 
 def reverse_string(text):

@@ -4,8 +4,8 @@
 
 def format_name(first, last):
     # TODO: Return "Last, First"
-    pass
+    return f"{last}, {first}"
 
 def title_case(sentence):
     # TODO: Convert sentence to title case (capitalize first letter of each word)
-    pass
+    return text.title()
